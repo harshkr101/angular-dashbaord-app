@@ -33,9 +33,17 @@ projects = [
   }
 ];
 
+  selectedProject;
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  selectProject(project){
+    this.selectedProject=project;
+  }
+
+
 
 }

@@ -44,6 +44,9 @@ projects = [
     this.selectedProject=project;
   }
 
+  cancel(){
+    this.selectedProject=null;
+  }
 
 
 }

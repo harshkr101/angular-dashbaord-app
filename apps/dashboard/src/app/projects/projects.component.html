@@ -30,13 +30,13 @@
         <mat-card-header>
           <mat-card-title>
             <h1>
-              <!-- PROJECT TITLE HERE -->
+              {{selectedProject?.title}}
             </h1>
           </mat-card-title>
         </mat-card-header>
         <form>
           <mat-card-content>
-            <!-- PROJECT FORM HERE -->
+            <pre>{{selectedProject | json}}</pre>
           </mat-card-content>
           <mat-card-actions>
             <button type="submit" mat-button color="primary">Save</button>

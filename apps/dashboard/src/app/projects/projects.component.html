@@ -30,7 +30,8 @@
         <mat-card-header>
           <mat-card-title>
             <h1>
-              {{selectedProject?.title}}
+             <span *ngIf="selectedProject; else elseblock">{{selectedProject?.title}}</span>
+             <ng-template #elseblock>Select a Project</ng-template>
             </h1>
           </mat-card-title>
         </mat-card-header>

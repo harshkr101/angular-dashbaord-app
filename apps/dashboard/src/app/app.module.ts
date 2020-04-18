@@ -4,9 +4,6 @@ import { MaterialModule } from '@workshop/material';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {HomeModule} from './home/home.module';
-import {ProjectsModule} from './projects/projects.module';
-import {CustomersModule} from './customers/customers.module';
 import { AppRoutingModule } from './app-routing.module';
 import { UiLoginModule } from '@workshop/ui-login';
 @NgModule({
@@ -15,11 +12,8 @@ import { UiLoginModule } from '@workshop/ui-login';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
+    UiLoginModule,
     AppRoutingModule,
-    HomeModule,
-    ProjectsModule,
-    CustomersModule,
-    UiLoginModule
     
   ],
   providers: [],

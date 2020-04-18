@@ -7,13 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {HomeModule} from './home/home.module';
 import {ProjectsModule} from './projects/projects.module';
 import {CustomersModule} from './customers/customers.module';
+import { AppRoutingModule } from './app-routing.module';
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
-    RouterModule.forRoot([], { initialNavigation: 'enabled' }),
     BrowserAnimationsModule,
     MaterialModule,
+    AppRoutingModule,
     HomeModule,
     ProjectsModule,
     CustomersModule

@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { UiLoginModule } from '@workshop/ui-login';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -13,6 +14,7 @@ import { UiLoginModule } from '@workshop/ui-login';
     BrowserAnimationsModule,
     MaterialModule,
     UiLoginModule,
+    HttpClientModule,
     AppRoutingModule,
     
   ],

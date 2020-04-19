@@ -9,7 +9,7 @@
         </mat-card-header>
         <mat-card-content>
           <mat-list>
-            <mat-list-item *ngFor="let project of projects" (click)="selectProject(project)">
+            <mat-list-item *ngFor="let project of projects$ | async" (click)="selectProject(project)">
               <h3 mat-line>
                {{project.title}}
               </h3>

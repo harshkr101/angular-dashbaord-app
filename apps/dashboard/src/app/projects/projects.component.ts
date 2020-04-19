@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 export class ProjectsComponent implements OnInit {
 
 
-  projects$:Observable<Project[]>;
+  projects$;
   selectedProject:Project;
 
   constructor(private projectsService:ProjectsService) { }
@@ -65,6 +65,7 @@ export class ProjectsComponent implements OnInit {
   }
 
     deleteProject(project) {
+
     this.projectsService.delete(project.id)
       .subscribe(result => this.getProjects());
     }

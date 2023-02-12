@@ -41,7 +41,7 @@
     "@angular/router": "^9.1.0",
     "@nrwl/angular": "^9.2.2",
     "core-js": "^2.5.4",
-    "json-server": "^0.16.1",
+    "json-server": "^0.17.1",
     "rxjs": "~6.5.4",
     "zone.js": "^0.10.2"
   },

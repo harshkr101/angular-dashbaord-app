@@ -67,7 +67,7 @@
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
     "@types/jasmine": "~2.8.8",
-    "protractor": "~5.4.0",
+    "protractor": "~5.4.4",
     "@types/jasminewd2": "~2.0.3"
   }
 }
